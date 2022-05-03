@@ -1,0 +1,20 @@
+html{
+    scroll-behavior:auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+}
+.image{
+    height:100vh;
+}
+.containerTextHome {
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

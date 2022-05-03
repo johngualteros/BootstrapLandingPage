@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mountain|Galaxy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="icon" href="../src/img/logo.png">
+  </head>
+  <body>
+      <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark text-light fixed-top px-3" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                    <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z"/>
+                  </svg>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#cards">Big Mountains</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clock">Clock</a></li>
+                    <li class="nav-item mx-4"><a href="./login.html"><button class="btn btn-outline-light px-5 rounded-pill">Log in</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Image -->
+    <section class="position-relative" id="home">
+    <img class="w-100 image" src="https://images.freejpg.com.ar/900/0804/dark-landscape-mountain-blue-sky-stars-silhouette-F100018278.jpg" alt="Home">
+    <div class="containerTextHome position-absolute text-lighth-50 w-75 container-fluid text-center">
+        <h1 class="display-1 fw-light text-light">THE ADVENTURE BEGINS</h1><br><br>
+        <span class="fs-4 fw-light text-light">
+        <p>Hold tight as we get our working robots together and</p>
+        <p>produce the most astonishing product ever.</p><br>
+        <button class="btn btn-outline-light w-25 border border-3 rounded-pill rounded-md shadow">NOTIFY ME</button>
+        </span>
+    </div>
+    </section>
+    <!-- Card Big mountains -->
+    <div class="container w-100 h-100" id="cards">
+        <section class="w-75 h-75 m-auto row my-5 text-center">
+            <!-- CARD 01 -->
+        <div class="col-auto m-auto ">
+            <div class="card h-100 bg-dark text-light shadow" style="width: 18rem;">
+                <img src="https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/08/13/150813141527_everest_624x351_spl.jpg" class="card-img-top" alt="..." height="200">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Monte Everest</h5>
+                  <p class="card-text">It is the highest mountain on the surface of planet Earth, with an altitude of 8,848 meters above sea level.</p>
+                </div>
+            </div>
+        </div>
+         <!-- CARD 02 -->
+         <div class="col-auto  p-3 m-auto">
+            <div class="card  h-100 bg-dark text-light shadow" style="width: 18rem;">
+                <img src="https://e00-elmundo.uecdn.es/elmundodeporte/imagenes/2013/05/23/masdeporte/1369318919_0.jpg" class="card-img-top" alt="..." height="200">
+                <div class="card-body">
+                  <h5 class="card-title">Kanchenjunga</h5>
+                  <p class="card-text">the third highest mountain in the world, after Everest and K2, with an altitude of 8,586 meters above sea level.</p>
+                </div>
+            </div>
+        </div>
+         <!-- CARD 03 -->
+         <div class="col-auto  p-3 m-auto">
+            <div class="card bg-dark text-light shadow" style="width: 18rem;">
+                <img src="https://www.meteorologiaenred.com/wp-content/uploads/2020/10/monte-k2.jpg.webp" class="card-img-top" alt="..." height="200">
+                <div class="card-body">
+                  <h5 class="card-title">K2</h5>
+                  <p class="card-text"> it is the second highest mountain on Earth, after Mount Everest, and possibly the most difficult to climb, along with Annapurna and Nanga Parbat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- CLOCK -->
+    <div class="container w-75 h-100 py-5 rounded shadow" id="clock">
+        <h1 class="display-1 fw-bold text-center my-5 text-light" id="reloj"></h1>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container w-100 h-25 mt-5 d-flex justify-content-between">
+        <p class="text-light">@copy John Gualteros 2022</p>
+        <a href="https://github.com/johngualteros" class="text-light" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        </a>
+    </footer>
+    <script src="../src/js/ShowTime.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
